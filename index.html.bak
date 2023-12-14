@@ -7,18 +7,18 @@
   <title>Landing Page</title>
 </head>
 <body>
-  <section class="hero">
-    <nav class="banner">
+  <div class="hero">
+    <div class="banner">
       <div class="logo">
         Header Logo
       </div>
-      <ul class="links">
-        <li><a href="#">header link one</a></li>
-        <li><a href="#">header link two</a></li>
-        <li><a href="#">header link three</a></li>
-      </ul>
-    </nav>
-    <article class="heroText">
+      <div class="links">
+        <a href="#">header link one</a></li>
+        <a href="#">header link two</a></li>
+        <a href="#">header link three</a></li>
+      </div>
+    </div>
+    <div class="heroText">
       <div class="left">
         This website is <br/>awesome
         <p>
@@ -31,44 +31,42 @@
       <div class="right">
         <img src="imgs/pexels-ylanite-koppens-796602.jpg" width="200px">
       </div>
-    </article>
-  </section>
-  <section class="container">
-    <span class="bottomHeader">Some Random information</span><br />
+    </div>
+  </div>
+  <div class="container">
+    <div class="bottomHeader">Some Random information</div><br />
     <div class="imageRow">
       
-      <img src="imgs/Simple_cartoon_style_laptop.png" width="80px" class="image">
+      <img src="imgs/Simple_cartoon_style_laptop.png" width="80px">
+      <p>This is an image of a laptop</p>
 
-      <img src="imgs/cartoon_style_pen_and_small_notepad.png" width="80px" class="image">
+      <img src="imgs/cartoon_style_pen_and_small_notepad.png" width="80px"
+      <p>This is a StableDiffusion generated image</p>
 
-      <img src="imgs/cartoon_style_building_silhouette.png" width="80px" class="image">
+      <img src="imgs/cartoon_style_building_silhouette.png" width="80px"
+      <p>This is and image also created by StableDiffusion of a bunch of building silhouettes</p>
 
-      <img src="imgs/cartoon_web_developer_in_office_attire.png" width="80px" class="image">
+      <img src="imgs/cartoon_web_developer_in_office_attire.png" width="80px"
+      <p>I also prompted StableDiffusion to create this image of a webdev at work</p>
     </div>
-    <div class="para">
-      <p class="para">This is an image of a laptop</p>
-      <p class="para">This is a StableDiffusion generated image</p>
-      <p class="para">This is and image also created by StableDiffusion of a bunch of building silhouettes</p>
-      <p class="para">I also prompted StableDiffusion to create this image of a webdev at work</p>
-    </div>
-  </section>
-  <section class="quoteBlock">
+  </div>
+  <div class="quoteBlock">
     <p id="quote">
       “The art of debugging is figuring out what you really told your program to do <br /> rather than what you thought you told it to do.”
     </p>
     -Andrew Singer, Professor at University of Illinois</p>
-  </section>
-  <section class="container2">
+  </div>
+  <div class="container2">
     <div class="subcontainer">
     <div class="footer">
-      <span>Call to action! It's time!<br /></span>
+      Call to action! It's time!<br />
       <span>Sign up for our product by clicking that button right over there!</span>
     </div>
     <div class="button2">
       <button id="button2">Sign Up</button>
     </div>
   </div>
-  </section>
+  </div>
   <div id="footer">
     <footer>Copyright &#169 The Odin Project 2021</footer>
   </div>

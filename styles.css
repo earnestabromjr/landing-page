@@ -18,34 +18,12 @@ body {
 }
 
 .hero {
-    display: block;
     /*justify-content: space-evenly;*/
     background-color: #1f2937;
     margin: 0;
     padding: 0;
-    height:auto;
-}
-
-.banner {
-    display: flex;
-    justify-content: space-around;
-    flex: auto;
-    flex-wrap: wrap;
-    align-items: baseline;
-}
-
-a, p {
-    color: #e5e7eb;
-    font-size: 18px;
-}
-
-.bottomHeader {
-    display: inline-block;
-    align-items: center;
-    margin: 0;
-    font-size: 36px;
-    flex: auto;
-    text-align: center;
+    height: auto;
+    display: block;
 }
 
 .logo {
@@ -56,18 +34,74 @@ a, p {
     justify-content: space-around;
 }
 
+.banner {
+    display: flex;
+    justify-content: space-evenly;
+    flex: auto;
+    flex-wrap: wrap;
+    align-items: baseline;
+}
+
+ul, li {
+    list-style-type: none;
+    display: inline;
+}
+
+.heroText {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    margin-top: 2em;
+    margin-bottom: 2rem;
+    padding-bottom: 2rem;
+}
+
+a, p {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
 .container {
-    /*display: flex;*/
+    display: block;
+    flex-wrap: wrap;
     background-color: #f9faf8;
     color: #1f2937; 
     font-size: 14px;
     text-align: center;
+    width: 100%
+}
+
+.bottomHeader {
+    align-items: center;
+    margin-bottom: 10px;
+    padding-bottom: 1rem;
+    font-size: 36px;
+    flex: auto;
+    text-align: center;
+    width: 100%;
 }
 
 .imageRow {
     display: flex;
-    align-items: center;
+    flex: 1 0;
+    justify-content: space-evenly;
+    gap: 2em;
     color: #1f2937;
+    margin-top: 2em;
+}
+
+.para {
+    display: flex;
+    flex: 1 0;
+    gap: 10px;
+    margin: 10px;
+    color: #1f2937;
+    justify-content: space-evenly
+}
+
+.image {
+    margin: 10px;
+    position: relative;
 }
 
 #quote {
@@ -98,23 +132,30 @@ color: #e5e7eb;
     background-color: #f9faf8;
 }
 
-.subcontainer, #button2 {
+.subcontainer {
     display: flex;
     justify-content: space-between;
     font-size: small;
     background-color: #3882f6;
     color: #f9faf8;
-    margin: 0;
+    margin: 10px;
+    width: 80%;
 }
 
-#footer {
+.footer {
+    padding: 20px;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-around;
+    flex: auto;
+}
+
+footer {
+    display: block;
+    text-align: center;
     background-color: #1f2937;
     font-size: 12px;
     width: auto;
     height: 3rem;
     margin: 0;
-    padding: 0;
+    padding: 15px;
 }
